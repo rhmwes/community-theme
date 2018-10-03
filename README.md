@@ -33,7 +33,7 @@ These instructions will get you a copy of the MWES Upstream Community Jekyll the
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://github.com/adelasofia/community-theme/blob/master/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
+Please read [CONTRIBUTING.md](https://github.com/rhmwes/community-theme/blob/master/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
 ## License
 
