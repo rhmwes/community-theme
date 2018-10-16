@@ -12,6 +12,10 @@ $baseurl: "{{ site.baseurl }}";
 @import "core/includes/header-navigation";
 @import "core/includes/product-download-band";
 @import "core/includes/quick-pitch-band";
+@import "core/includes/secondary-page-title-band";
+@import "core/includes/download-announcement-band";
+@import "core/includes/two-column-content-band";
+@import "core/includes/mid-page-cta-band";
 
 @import "project-colors";
 @import "components";

@@ -132,10 +132,7 @@ p.byline {
 a {
   line-height: 1.5rem;
   font-weight: 400;
-  // color: $yellow;
   cursor: pointer;
-  // strong { color: $yellow; }
-  // &.light-background{ color: $teal; }
 }
 
 a.button-cta {
@@ -148,7 +145,7 @@ a.button-cta {
   font-size: 1.5rem;
   font-weight: 200;
   margin: .5rem;
-  padding: 12px 40px;
+  padding: .75rem 3rem;
   white-space: nowrap;
   line-height: 3.5;
   transition: background .2s ease-in 0s;
