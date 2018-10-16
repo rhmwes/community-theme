@@ -15,7 +15,12 @@
               <a href="{{site.baseurl}}/downloads/" class="{% if page.url contains '/downloads/' %}active{% endif %}">Downloads</a>
             </li>
             <li>
-              <a href="{{site.baseurl}}/blog/" class="{% if page.url contains '/blog/' %}active{% endif %}">Blog</a>
+              <a href="#" class="{% if page.url contains '/blog/' %}active{% endif %}">Blog</a>
+              <ul class="nav-submenu">
+                <li class="nav-submenu-item"><a href="#">Submenu item 1</a></li>
+                <li class="nav-submenu-item"><a href="#">Submenu item 2</a></li>
+                <li class="nav-submenu-item"><a href="#">Submenu item 3</a></li>
+              </ul>
             </li>
             <li>
               <a href="{{site.baseurl}}/about/" class="{% if page.url contains '/about/' %}active{% endif %}">About</a>
