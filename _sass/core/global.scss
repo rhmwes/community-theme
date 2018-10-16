@@ -3,13 +3,12 @@
 // It does not contain the YAML front matter and has no corresponding output file in the built site.
 
 @import "colors";
-@import url('https://fonts.googleapis.com/css?family=PT+Mono|Titillium+Web:200,400,700');
 
 html,
 body {
   font-size: 100%;
   font-weight: 100;
-  // background-color: $dark-blue;
+  font-family: Helvetica, Arial, sans-serif;
 }
 
 body {
@@ -50,20 +49,19 @@ div.content {
 }
 
 * {
-  font-family: 'Titillium Web', sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   color: $black;
   line-height: 1rem;
 }
 
 h1,h2,h3,h4,h5,h6,p {
-  // color: $blue;
   margin: 2rem 0;
 }
 
 h1 {
   font-size: 6rem;
   line-height: 6rem;
-  font-weight: 200;
+  font-weight: 600;
   @media screen and (max-width: 768px) {
     font-size: 3rem;
     line-height: 3rem;    
@@ -71,9 +69,9 @@ h1 {
 }
 
 h2 {
-  font-size: 2.5rem;
-  line-height: 3rem;
-  font-weight: 100;
+  font-size: 4rem;
+  line-height: 4rem;
+  font-weight: 200;
   @media screen and (max-width: 768px) {
     font-size: 2rem;
     line-height: 2rem;    
@@ -81,9 +79,9 @@ h2 {
 }
 
 h3 {
-  font-size: 2rem;
-  line-height: 2rem;
-  font-weight: 700;
+  font-size: 3rem;
+  line-height: 3rem;
+  font-weight: 200;
   @media screen and (max-width: 768px) {
     font-size: 1rem;
     line-height: 1rem;    
@@ -91,9 +89,29 @@ h3 {
 }
 
 h4 {
+  font-size: 2rem;
+  line-height: 2rem;
+  font-weight: 200;
+  @media screen and (max-width: 768px) {
+    font-size: .75rem;
+    line-height: .75rem;    
+  }
+}
+
+h5 {
   font-size: 1.5rem;
-  line-height: 1.75rem;
-  font-weight: 400;
+  line-height: 1.5rem;
+  font-weight: 200;
+  @media screen and (max-width: 768px) {
+    font-size: .75rem;
+    line-height: .75rem;    
+  }
+}
+
+h6 {
+  font-size: 1rem;
+  line-height: 1rem;
+  font-weight: 600;
   @media screen and (max-width: 768px) {
     font-size: .75rem;
     line-height: .75rem;    
@@ -104,9 +122,6 @@ p {
   font-size: 1rem;
   line-height: 1.5rem;
   font-weight: 100;
-  &.light {
-    color: $white;
-  }
 }
 
 p.byline {
@@ -130,6 +145,8 @@ a.button-cta {
   border: 2px solid $yellow;
   text-transform: uppercase;
   text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 200;
   margin: .5rem;
   padding: 12px 40px;
   white-space: nowrap;
@@ -147,12 +164,12 @@ a.button-cta {
 
 a.button-cta.secondary {
   background: none;
-  border: 2px solid $yellow;
-  color: $yellow;
+  border: 2px solid $blue;
+  color: $blue;
   &:hover, &:active, &:focus {
-    background-color: $dark-yellow;
-    border-color: $dark-yellow;
-    color: $yellow;
+    background-color: $dark-blue;
+    border-color: $dark-blue;
+    color: $white;
   }
 }
 

@@ -1,7 +1,12 @@
+.component-wrapper {
+  margin-top: 4rem;
+  margin-bottom: 6rem;
+}
+
 .component-name {
   background-color: $blue;
 
-  h4 {
+  h5 {
     color: $white;
     margin: 1rem;
     text-transform: uppercase;
