@@ -10,6 +10,8 @@ $baseurl: "{{ site.baseurl }}";
 @import "core/colors";
 @import "core/asciidoc";
 @import "core/includes/header-navigation";
+@import "core/includes/product-download-band";
+@import "core/includes/quick-pitch-band";
 
 @import "project-colors";
 @import "components";
