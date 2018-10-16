@@ -17,6 +17,8 @@ $baseurl: "{{ site.baseurl }}";
 @import "core/includes/two-column-content-band";
 @import "core/includes/mid-page-cta-band";
 @import "core/includes/docs-archive-subnav";
+@import "core/includes/contributions-band";
+@import "core/includes/big-three-subnav-band";
 
 @import "project-colors";
 @import "components";
