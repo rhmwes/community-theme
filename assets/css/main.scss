@@ -1,0 +1,14 @@
+---
+# this ensures Jekyll reads the file to be transformed into CSS later
+# only Main files contain this front matter, not partials.
+---
+
+$baseurl: "{{ site.baseurl }}";
+
+@import "core/global";
+@import "core/grid";
+@import "core/colors";
+@import "core/asciidoc";
+@import "core/includes/header-navigation";
+
+@import "project-colors";
