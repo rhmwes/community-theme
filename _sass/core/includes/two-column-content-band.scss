@@ -11,4 +11,15 @@
   .img-content {
     margin: 0;
   }
+  @media screen and (max-width: $breakpoint-m) {
+    .two-columns {
+      width: 100%;
+      -moz-column-count: 1;
+      -moz-column-gap: 1rem;
+      -webkit-column-count: 1;
+      -webkit-column-gap: 1rem;
+      column-count: 1;
+      column-gap: 1rem;
+    }
+  }
 }
