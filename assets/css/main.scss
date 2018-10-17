@@ -24,6 +24,7 @@ $baseurl: "{{ site.baseurl }}";
 @import "core/includes/highlights-alternating-images-band";
 @import "core/includes/highlights-three-columns-band";
 @import "core/includes/download-release-band";
+@import "core/includes/contact-form-band";
 
 @import "project-colors";
 @import "components";

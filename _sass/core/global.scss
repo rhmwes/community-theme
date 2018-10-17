@@ -140,11 +140,13 @@ a {
   }
 }
 
-a.button-cta {
+a.button-cta,
+button,
+input[type="submit"] {
   text-align: center;
-  color: $dark-blue;
-  background-color: $yellow;
-  border: 2px solid $yellow;
+  color: $white;
+  background-color: $blue;
+  border: 2px solid $blue;
   text-transform: uppercase;
   text-decoration: none;
   font-size: 1.5rem;
@@ -155,9 +157,9 @@ a.button-cta {
   line-height: 3.5;
   transition: background .2s ease-in 0s;
   &:hover, &:active, &:focus {
-    background-color: $dark-yellow;
-    border-color: $dark-yellow;
-    color: $yellow;
+    background-color: #011a21;
+    border-color: #011a21;
+    color: $white;
   }
 }
 
@@ -254,5 +256,26 @@ table {
   @media screen and (max-width: 768px) {
     display: block;
     width: 100%;
+  }
+}
+
+form {
+  input, textarea {
+    padding: .75rem;
+    font-size: 1rem;
+    border-radius: 10px;
+    border-color: $gray-1;
+    border-width: 1px;
+    border-style: solid;
+  }
+  textarea {
+    min-height: 13rem;
+  }
+  input[type="submit"] {
+    font-size: 1rem;
+    line-height: 1.5;
+    cursor: pointer;
+    border-radius: 0;
+    border: none;
   }
 }
