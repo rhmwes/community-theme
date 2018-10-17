@@ -22,6 +22,7 @@ $baseurl: "{{ site.baseurl }}";
 @import "core/includes/video-content-band";
 @import "core/includes/highlights-inline-images-band";
 @import "core/includes/highlights-alternating-images-band";
+@import "core/includes/highlights-three-columns-band";
 
 @import "project-colors";
 @import "components";
