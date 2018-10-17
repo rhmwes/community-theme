@@ -134,6 +134,10 @@ a {
   font-weight: 400;
   cursor: pointer;
   text-decoration: none;
+  color: $link;
+  &:hover, &:active, &:focus {
+    color: $link-visited;
+  }
 }
 
 a.button-cta {
@@ -170,7 +174,7 @@ a.button-cta.secondary {
 
 code, pre {
   font-family: 'PT Mono', monospace;
-  background-color: $yellow;
+  background-color: $gray-0;
   color: $dark-blue;
   line-height: 1.2;
   overflow: scroll;
