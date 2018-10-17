@@ -1,0 +1,47 @@
+.download-release-band {
+  .version-table {
+    margin-bottom: 1rem;
+    table {
+      width: 100%;
+    }
+    tbody td {
+      padding: .25rem 1rem;
+    }
+    tbody th {
+      background-color: $blue;
+      padding: 1rem;
+    }
+    .version-name {
+      text-align: left;
+      border-bottom: 1px solid $blue;
+      font-weight: 400;
+      color: $white;
+      &.final {
+        font-weight: 700;
+        text-transform: uppercase;
+      }
+      .release-date {
+        float: right;
+        text-transform: initial;
+        color: $white;
+      }
+    }
+
+    // .description { min-width: 13rem; }
+    .licence { min-width: 3rem; }
+    .links {
+      min-width: 6rem;
+      text-align: right;
+      a:not(:first-of-type) {
+        &:before {
+          content: '|';
+          margin: 0 5px 0 3px;
+        }
+      }
+    }
+    td, a { font-size: .875rem; }
+    @media screen and (max-width: 1024px) {
+      grid-column: span 12;
+    }
+  }
+}

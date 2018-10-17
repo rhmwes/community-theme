@@ -206,7 +206,7 @@ table {
   }
 
   thead th {
-    background-color: $teal;
+    // background-color: $blue;
     color: $white;
     padding: .5rem 1rem;
     font-size: 1.5rem;
@@ -216,7 +216,7 @@ table {
   }
   tbody tr {
     &:nth-child(even) {
-      background-color: $blue;
+      background-color: $gray-0;
     }
     td p {
        margin: 0;
