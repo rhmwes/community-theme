@@ -6,6 +6,9 @@
     }
     img {
       max-width: 12rem;
+      @media screen and (max-width: $breakpoint-m) {
+        max-width: 100%;
+      }
     }
   }
 }
