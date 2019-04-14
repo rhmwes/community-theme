@@ -8,13 +8,13 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
- - Install a full [Ruby development environment]([https://www.ruby-lang.org/en/downloads/). Ruby version 2.4.0 or above is required, including all development headers. You can run `ruby -v` to check your current Ruby version.
+ - Install a full [Ruby development environment](https://www.ruby-lang.org/en/downloads/). Ruby version 2.4.0 or above is required, including all development headers. You can run `ruby -v` to check your current Ruby version.
  - [RubyGems](https://rubygems.org/pages/download). You can run `gem -v` to check if you have RubyGems installed.
  - [GCC](https://gcc.gnu.org/install/) and [Make](https://www.gnu.org/software/make/). You can run `gcc -v`,`g++ -v` and `make -v` to see if your system already has them installed.
 
 ### Installing the theme
 
-*[Jekyll documentation pages](https://jekyllrb.com/docs/).*
+*[Jekyll documentation pages](https://jekyllrb.com/docs/)*
 
 1. The Jekyll site provides detailed instructions for each operating system:
  
