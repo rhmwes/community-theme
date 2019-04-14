@@ -9,29 +9,29 @@ These instructions will get you a copy of the project up and running on your loc
 ### Prerequisites
 
  -  Install a full [Ruby development environment]([https://www.ruby-lang.org/en/downloads/](https://www.ruby-lang.org/en/downloads/)) - Ruby version 2.4.0 or above is required, including all development headers.
- -- Run `ruby -v` to check your current Ruby version.
+   - Run `ruby -v` to check your current Ruby version.
  - [RubyGems](https://rubygems.org/pages/download)
- -- Run `gem -v` to check if you have RubyGems installed.
+   - Run `gem -v` to check if you have RubyGems installed.
  - [GCC](https://gcc.gnu.org/install/) and [Make](https://www.gnu.org/software/make/)
- -- Run `gcc -v`,`g++ -v` and `make -v` to see if your system already has them installed.
+   - Run `gcc -v`,`g++ -v` and `make -v` to see if your system already has them installed.
 
 ### Installing the theme
 
 *For more Jekyll help, please visit their [documentation pages](https://jekyllrb.com/docs/).*
 
 1. [The Jekyll site]([https://jekyllrb.com/docs/installation/](https://jekyllrb.com/docs/installation/)) provides detailed instructions for each operating system:
--- [Mac](https://jekyllrb.com/docs/installation/macos/)
--- [Linux distributions including Red Hat Linux](https://jekyllrb.com/docs/installation/other-linux)
--- [Ubuntu Linux](https://jekyllrb.com/docs/installation/ubuntu/)
--- [Windows](https://jekyllrb.com/docs/installation/windows/)
+  - [Mac](https://jekyllrb.com/docs/installation/macos/)
+  - [Linux distributions including Red Hat Linux](https://jekyllrb.com/docs/installation/other-linux)
+  - [Ubuntu Linux](https://jekyllrb.com/docs/installation/ubuntu/)
+  - [Windows](https://jekyllrb.com/docs/installation/windows/)
 2. Fork this [repository](https://github.com/rhmwes/community-theme) by clicking the _Fork_ button on the top right corner of this page.
-3. Clone your fork (please ensure you have current version of git installed) by running:
-`git clone git@github.com:YOUR_USER_NAME/community-theme.git`
-4. Change into the project directory
-`cd community-theme`  
-5. Build the site and make it available on a local server
+3. Clone your fork (please ensure you have current version of git installed) by running: 
+ `git clone git@github.com:YOUR_USER_NAME/community-theme.git`
+5. Change into the project directory
+ `cd community-theme` 
+6. Build the site and make it available on a local server
 `bundle exec jekyll serve`
-6. Now browse to http://localhost:4000
+7. Now browse to http://localhost:4000
 > If you encounter any unexpected errors during the above, please refer to the [troubleshooting](https://jekyllrb.com/docs/troubleshooting/#configuration-problems) page or the [requirements](https://jekyllrb.com/docs/installation/#requirements) page, as you might be missing development headers or other prerequisites.
 
 _For more regarding the use of Jekyll, please refer to the [Jekyll Step by Step Tutorial](https://jekyllrb.com/docs/step-by-step/01-setup/)._
