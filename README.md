@@ -4,36 +4,34 @@ The Upstream Community Theme is a ready-to-use [Jekyll](https://jekyllrb.com/) t
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development purposes. See deployment for notes on how to deploy the project on [GitHub Pages](https://pages.github.com/)).
+These instructions will get you a copy of the project up and running on your local machine for development purposes. See deployment for notes on how to deploy the project on [GitHub Pages](https://pages.github.com/).
 
 ### Prerequisites
 
- -  Install a full [Ruby development environment]([https://www.ruby-lang.org/en/downloads/). Ruby version 2.4.0 or above is required, including all development headers.
-   - Run `ruby -v` to check your current Ruby version.
- - [RubyGems](https://rubygems.org/pages/download)
-   - Run `gem -v` to check if you have RubyGems installed.
- - [GCC](https://gcc.gnu.org/install/) and [Make](https://www.gnu.org/software/make/)
-   - Run `gcc -v`,`g++ -v` and `make -v` to see if your system already has them installed.
+ - Install a full [Ruby development environment]([https://www.ruby-lang.org/en/downloads/). Ruby version 2.4.0 or above is required, including all development headers. You can run `ruby -v` to check your current Ruby version.
+ - [RubyGems](https://rubygems.org/pages/download). You can run `gem -v` to check if you have RubyGems installed.
+ - [GCC](https://gcc.gnu.org/install/) and [Make](https://www.gnu.org/software/make/). You can run `gcc -v`,`g++ -v` and `make -v` to see if your system already has them installed.
 
 ### Installing the theme
 
-*For more Jekyll help, please visit their [documentation pages](https://jekyllrb.com/docs/).*
+*[Jekyll documentation pages](https://jekyllrb.com/docs/).*
 
-1. [The Jekyll site](https://jekyllrb.com/docs/installation/) provides detailed instructions for each operating system:
+1. The Jekyll site provides detailed instructions for each operating system:
  
   - [Mac](https://jekyllrb.com/docs/installation/macos/)
   - [Linux distributions including Red Hat Linux](https://jekyllrb.com/docs/installation/other-linux)
   - [Ubuntu Linux](https://jekyllrb.com/docs/installation/ubuntu/)
   - [Windows](https://jekyllrb.com/docs/installation/windows/)
     
-3. Fork this [repository](https://github.com/rhmwes/community-theme) by clicking the _Fork_ button on the top right corner of this page.
+3. Fork this repository by clicking the _Fork_ button at the top right corner of this page.
 4. Clone your fork (please ensure you have current version of git installed) by running: 
- `git clone git@github.com:YOUR_USER_NAME/community-theme.git`
+  `git clone git@github.com:YOUR_USER_NAME/community-theme.git`
 5. Change into the project directory
- `cd community-theme`
+  `cd community-theme`
 6. Build the site and make it available on a local server
-`bundle exec jekyll serve`
+  `bundle exec jekyll serve`
 7. Now browse to http://localhost:4000
+
 > If you encounter any unexpected errors during the above, please refer to the [troubleshooting](https://jekyllrb.com/docs/troubleshooting/#configuration-problems) page or the [requirements](https://jekyllrb.com/docs/installation/#requirements) page, as you might be missing development headers or other prerequisites.
 
 _For more information regarding the use of Jekyll, please refer to the [Jekyll Step by Step Tutorial](https://jekyllrb.com/docs/step-by-step/01-setup/)._
@@ -42,7 +40,7 @@ _For more information regarding the use of Jekyll, please refer to the [Jekyll S
 
 To deploy your site using GitHub Pages you will need to add the [github-pages gem](https://github.com/github/pages-gem).
 
-> Note that GitHub Pages runs in safe mode and only allows a set of [whitelisted plugins](https://help.github.com/articles/configuring-jekyll-plugins/#default-plugins).
+> Note that GitHub Pages runs in `safe` mode and only allows a set of [whitelisted plugins](https://help.github.com/articles/configuring-jekyll-plugins/#default-plugins).
 
 To use the github-pages gem, you'll need to add the following on your `Gemfile`:
 
@@ -52,7 +50,7 @@ gem "github-pages", group: :jekyll_plugins
 ```
 And then run `bundle update`.
 
-For more detailed instructions on how to deploy your Jekyll site on GitHub pages, please refer to the following guide: [Deploying Jekyll to GitHub Pages](https://jekyllrb.com/docs/github-pages/#deploying-jekyll-to-github-pages)
+To deploy a Project Page that is kept in the same repository as the project they are for, please refer to the *Project Pages* section in [Deploying Jekyll to GitHub Pages](https://jekyllrb.com/docs/github-pages/#deploying-jekyll-to-github-pages).
 
 
 ## Contributing
