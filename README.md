@@ -1,40 +1,55 @@
-# MWES Upstream Community Theme
+# RHMWES Upstream Community Theme
+
+The Upstream Community Theme is a ready-to-use [Jekyll](https://jekyllrb.com/) theme to help you create a basic static site for your project. It was designed with the Red Hat Upstream Community in mind, but can be used by anyone looking to create a simple, lightweight site.
 
 ## Getting Started
 
-These instructions will get you a copy of the MWES Upstream Community Jekyll theme up and running on your local machine for development and testing purposes.
+These instructions will get you a copy of the project up and running on your local machine for development purposes. See deployment for notes on how to deploy the project on [GitHub Pages](https://pages.github.com/)).
 
-### Installation
-[Jekyll static site generator docs](https://jekyllrb.com/docs/).
+### Prerequisites
 
- 1. Install a full [Ruby development environment](https://jekyllrb.com/docs/installation/)
- 2. Install Jekyll and [bundler](https://jekyllrb.com/docs/ruby-101/#bundler)  [gems](https://jekyllrb.com/docs/ruby-101/#gems) 
-  
-        gem install jekyll bundler
+ -  Install a full [Ruby development environment]([https://www.ruby-lang.org/en/downloads/](https://www.ruby-lang.org/en/downloads/)) - Ruby version 2.4.0 or above is required, including all development headers.
+ -- Run `ruby -v` to check your current Ruby version.
+ - [RubyGems](https://rubygems.org/pages/download)
+ -- Run `gem -v` to check if you have RubyGems installed.
+ - [GCC](https://gcc.gnu.org/install/) and [Make](https://www.gnu.org/software/make/)
+ -- Run `gcc -v`,`g++ -v` and `make -v` to see if your system already has them installed.
 
-3. Fork the [project repository](https://github.com/rhmwes/community-theme), then clone your fork.
-  
-        git clone git@github.com:YOUR_USER_NAME/community-theme.git
+### Installing the theme
 
-4. Change into the projecr directory
-  
-        cd community-theme
+*For more Jekyll help, please visit their [documentation pages](https://jekyllrb.com/docs/).*
 
+1. [The Jekyll site]([https://jekyllrb.com/docs/installation/](https://jekyllrb.com/docs/installation/)) provides detailed instructions for each operating system:
+-- [Mac](https://jekyllrb.com/docs/installation/macos/)
+-- [Linux distributions including Red Hat Linux](https://jekyllrb.com/docs/installation/other-linux)
+-- [Ubuntu Linux](https://jekyllrb.com/docs/installation/ubuntu/)
+-- [Windows](https://jekyllrb.com/docs/installation/windows/)
+2. Fork this [repository](https://github.com/rhmwes/community-theme) by clicking the _Fork_ button on the top right corner of this page.
+3. Clone your fork (please ensure you have current version of git installed) by running:
+`git clone git@github.com:YOUR_USER_NAME/community-theme.git`
+4. Change into the project directory
+`cd community-theme`  
 5. Build the site and make it available on a local server
-  
-        bundle exec jekyll serve
-        
- 6. Now browse to http://localhost:4000
-
+`bundle exec jekyll serve`
+6. Now browse to http://localhost:4000
 > If you encounter any unexpected errors during the above, please refer to the [troubleshooting](https://jekyllrb.com/docs/troubleshooting/#configuration-problems) page or the [requirements](https://jekyllrb.com/docs/installation/#requirements) page, as you might be missing development headers or other prerequisites.
 
+_For more regarding the use of Jekyll, please refer to the [Jekyll Step by Step Tutorial](https://jekyllrb.com/docs/step-by-step/01-setup/)._
 
-**For more regarding the use of Jekyll, please refer to the [Jekyll Step by Step Tutorial](https://jekyllrb.com/docs/step-by-step/01-setup/).**
+## Deployment on GitHub Pages
+
+For instructions on how to deploy your Jekyll site on GitHub pages, please refer to the following guide: [Deploying Jekyll to GitHub Pages](https://jekyllrb.com/docs/github-pages/#deploying-jekyll-to-github-pages)
+
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://github.com/rhmwes/community-theme/blob/master/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
+Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on the process for submitting pull requests to us.
+
+## Authors
+
+* [**Adela Sofia A.**](https://github.com/adelasofia) - *Initial theme implementation*
+* [**Jason Brock**](https://github.com/jkbrock) - *Visual Designer*
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
