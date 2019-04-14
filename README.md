@@ -1,4 +1,4 @@
-# RHMWES Upstream Community Theme
+# Upstream Community Theme
 
 The Upstream Community Theme is a ready-to-use [Jekyll](https://jekyllrb.com/) theme to help you create a basic static site for your project. It was designed with the Red Hat Upstream Community in mind, but can be used by anyone looking to create a simple, lightweight site.
 
@@ -8,7 +8,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
- -  Install a full [Ruby development environment]([https://www.ruby-lang.org/en/downloads/](https://www.ruby-lang.org/en/downloads/)) - Ruby version 2.4.0 or above is required, including all development headers.
+ -  Install a full [Ruby development environment]([https://www.ruby-lang.org/en/downloads/](https://www.ruby-lang.org/en/downloads/). Ruby version 2.4.0 or above is required, including all development headers.
    - Run `ruby -v` to check your current Ruby version.
  - [RubyGems](https://rubygems.org/pages/download)
    - Run `gem -v` to check if you have RubyGems installed.
@@ -19,16 +19,18 @@ These instructions will get you a copy of the project up and running on your loc
 
 *For more Jekyll help, please visit their [documentation pages](https://jekyllrb.com/docs/).*
 
-1. [The Jekyll site]([https://jekyllrb.com/docs/installation/](https://jekyllrb.com/docs/installation/)) provides detailed instructions for each operating system:
-  - [Mac](https://jekyllrb.com/docs/installation/macos/)
-  - [Linux distributions including Red Hat Linux](https://jekyllrb.com/docs/installation/other-linux)
-  - [Ubuntu Linux](https://jekyllrb.com/docs/installation/ubuntu/)
-  - [Windows](https://jekyllrb.com/docs/installation/windows/)
-2. Fork this [repository](https://github.com/rhmwes/community-theme) by clicking the _Fork_ button on the top right corner of this page.
-3. Clone your fork (please ensure you have current version of git installed) by running: 
+1. [The Jekyll site](https://jekyllrb.com/docs/installation/) provides detailed instructions for each operating system:
+ 
+  [Mac](https://jekyllrb.com/docs/installation/macos/)
+   [Linux distributions including Red Hat Linux](https://jekyllrb.com/docs/installation/other-linux)
+  [Ubuntu Linux](https://jekyllrb.com/docs/installation/ubuntu/)
+  [Windows](https://jekyllrb.com/docs/installation/windows/)
+    
+3. Fork this [repository](https://github.com/rhmwes/community-theme) by clicking the _Fork_ button on the top right corner of this page.
+4. Clone your fork (please ensure you have current version of git installed) by running: 
  `git clone git@github.com:YOUR_USER_NAME/community-theme.git`
 5. Change into the project directory
- `cd community-theme` 
+ `cd community-theme`
 6. Build the site and make it available on a local server
 `bundle exec jekyll serve`
 7. Now browse to http://localhost:4000
@@ -38,7 +40,19 @@ _For more regarding the use of Jekyll, please refer to the [Jekyll Step by Step 
 
 ## Deployment on GitHub Pages
 
-For instructions on how to deploy your Jekyll site on GitHub pages, please refer to the following guide: [Deploying Jekyll to GitHub Pages](https://jekyllrb.com/docs/github-pages/#deploying-jekyll-to-github-pages)
+To deploy your site using GitHub Pages you will need to add the [github-pages gem](https://github.com/github/pages-gem).
+
+> Note that GitHub Pages runs in safe mode and only allows a set of [whitelisted plugins](https://help.github.com/articles/configuring-jekyll-plugins/#default-plugins).
+
+To use the github-pages gem, you'll need to add the following on your `Gemfile`:
+
+```
+source "https://rubygems.org"
+gem "github-pages", group: :jekyll_plugins
+```
+And then run `bundle update`.
+
+For more detailed instructions on how to deploy your Jekyll site on GitHub pages, please refer to the following guide: [Deploying Jekyll to GitHub Pages](https://jekyllrb.com/docs/github-pages/#deploying-jekyll-to-github-pages)
 
 
 ## Contributing
