@@ -50,7 +50,7 @@ gem "github-pages", group: :jekyll_plugins
 ```
 And then run `bundle update`.
 
-To deploy a Project Page that is kept in the same repository as the project they are for, please refer to the *Project Pages* section in [Deploying Jekyll to GitHub Pages](https://jekyllrb.com/docs/github-pages/#deploying-jekyll-to-github-pages).
+To deploy a project page that is kept in the same repository as the project they are for, please refer to the *Project Pages* section in [Deploying Jekyll to GitHub Pages](https://jekyllrb.com/docs/github-pages/#deploying-jekyll-to-github-pages).
 
 
 ## Contributing
