@@ -7,6 +7,12 @@ $content-width: 1000px;
 $nav-breakpoint: 1024px;
 $nav-height: 70px;
 
+section.nav-content {
+  padding: 0 13rem;
+  @media screen and (max-width: 1170px) { padding: 0 6rem; }
+  @media screen and (max-width: 480px) { padding: 0 2rem; }
+}
+
 // Outer navigation wrapper
 .navigation {
   height: $nav-height;
@@ -22,7 +28,6 @@ $nav-height: 70px;
 // Navigation 
 nav {
   float: right;
-  padding-top: 1rem;
   ul {
     list-style: none;
     margin: 0;
@@ -31,14 +36,15 @@ nav {
       float: left;
       position: relative;
       a,
-      a:visited {
+      a:visited,
+      a:hover {
         display: block;
         padding: 0 20px;
         line-height: $nav-height;
         font-size: 1.5rem;
         text-decoration: none;
+        color: $black;
         &.active {
-          color: $yellow;
           font-weight: 700;
         }
       }
@@ -63,7 +69,7 @@ nav ul.nav-list {
 }
 
 .nav-submenu{
-  background: $light-gray;
+  background: $gray-0;
   display: none;
   position: absolute;
   top: 100%;
@@ -100,15 +106,14 @@ nav ul.nav-list {
 .nav-mobile {
   display: none;
   position: absolute;
-  top: 2rem;
-  right: 2rem;
+  top: 3rem;
+  right: 0;
   height: $nav-height;
   width: $nav-height;
 }
 @media only screen and (max-width: $nav-breakpoint) {
   .navigation {
     padding-top: 2rem;
-    padding-right: 2rem;
   }
   .nav-mobile {
     display: block;
@@ -123,13 +128,11 @@ nav ul.nav-list {
     width: 16rem;
     padding-top: 0;
     .nav-list {
-      background-color: $yellow;
+      background-color: $gray-0;
       position: relative;
       left: 100px;
       top: -80px;
-      padding: 3rem 1rem 1rem 1rem;
-      border-top-right-radius: 30px;
-      border-bottom-left-radius: 30px;
+      padding: 1.5rem;
       @media screen and (max-width: 468px) {
         left: 50px;
       }
@@ -141,10 +144,12 @@ nav ul.nav-list {
       display: none;
       li {
         float: none;
+        float: none;
+        margin: .5rem 0;
         a,
-        a:visited {
-          padding: 15px;
-          line-height: 20px;
+        a:visited,
+        a:hover {
+          line-height: 1.5;
           color: $dark-blue;
           &.active {
             color: $dark-blue;
@@ -163,10 +168,7 @@ nav ul.nav-list {
 
 #nav-toggle {
   position: absolute;
-  left: 18px;
-  top: 22px;
   cursor: pointer;
-  padding: 10px 35px 16px 0px;
   span,
   span:before,
   span:after {
@@ -174,7 +176,7 @@ nav ul.nav-list {
     border-radius: 1px;
     height: 5px;
     width: 35px;
-    background: $white;
+    background: $black;
     position: absolute;
     display: block;
     content: '';
