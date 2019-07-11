@@ -28,3 +28,7 @@ $baseurl: "{{ site.baseurl }}";
 
 @import "project-colors";
 @import "components";
+@import "layouts/blog";
+@import "includes/project-footer";
+@import "includes/redhat-footer";
+@import "includes/share-page";

@@ -1,5 +1,9 @@
 .highlights-alternating-images-band {
-  .block-content{
+  .highlights-alternating-inline-block {
+    padding: 2rem 0 4rem 0;
+  }
+  .block-content,
+  .block-image{
     align-self: center;
     justify-self: center;
   }
