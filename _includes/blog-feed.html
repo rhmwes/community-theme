@@ -1,6 +1,6 @@
 <div class="component-wrapper">
   <div class="grid__item width-10-12 width-12-12-m">
-    {% for post in paginator.posts %}
+    {% for post in site.posts %}
       {% assign author = site.data.authors[post.author] %}
       <div class="blog-list-item grid-wrapper">
         <div class="post-title grid__item width-12-12">
